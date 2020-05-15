@@ -43,4 +43,8 @@ dat2
 wordcloud2(dat2, minRotation = -pi/6, maxRotation = -pi/6, minSize = 10,
            rotateRatio = 1)
 wordcloud(m2)
-neharika                              
+neharika
+                               
+corpus2= tm_map(corpus2, tolower)
+                               
+                               
